@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 200px;
+    background-color: #93B5C9;
+}
+
+section{
+    height: 400px;
+    background-color: #AB2849;
+    margin-bottom: 40px;
+}
+
+div{
+    
+    height: 200px;
+    width: 80%;
+    background-color: #AB2849;
+    position: relative;
+    left: 10%;
+    
+}
+
+.padre{
+    height: 200px;
+    width: 40%;
+    background-color: #AB2849;
+    position: relative;
+    margin:40px 0;
+}
+
+.hijo{
+    height: 200px;
+    width: 99%;
+    background-color: #AB2849;
+    position: absolute;
+    left: 100%;
+    margin: 0 1%;
+    
+}
+
+footer{
+    height: 150px;
+    background-color: #AB2849;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
